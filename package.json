@@ -1,0 +1,13 @@
+{
+  "name": "react-mapboxmap",
+  "version": "0.0.1",
+  "description": "A Mapbox component for React.js",
+  "author": "Ale <ale@songbee.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamale/MapboxMap.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

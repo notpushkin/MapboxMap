@@ -1,6 +1,6 @@
 {
   "name": "react-mapboxmap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Mapbox component for React.js",
   "author": "Ale <ale@songbee.net>",
   "license": "MIT",
@@ -8,7 +8,13 @@
     "type": "git",
     "url": "https://github.com/iamale/MapboxMap.git"
   },
-  "main": "MapboxMap.jsx",
+  "main": "MapboxMap.js",
+  "scripts": {
+    "build": "babel MapboxMap.jsx > MapboxMap.js",
+    "prepublish": "npm run build"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
 }

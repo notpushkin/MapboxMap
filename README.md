@@ -1,6 +1,8 @@
 MapboxMap
 ==========
 
+**Notice**: this never was a full-feature library, merely a layer on top of Mapbox JS SDK. For a better, more full fledged solution, try [react-leaflet](https://github.com/PaulLeCam/react-leaflet) (in conjunction with the Mapbox [Maps API](https://www.mapbox.com/api-documentation/#maps) in our case).
+
 ```
 npm install react-mapboxmap
 ```
@@ -41,4 +43,4 @@ Attributes
 License
 --------
 
-<MIT class=""></MIT>
+MIT

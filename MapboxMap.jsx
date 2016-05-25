@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom')
 // Assuming Mapbox/Leaflet is already exposed as `L`
 
 var MapboxMap = React.createClass({
@@ -15,7 +16,7 @@ var MapboxMap = React.createClass({
       }
     }
     
-    var map = L.mapbox.map(this.getDOMNode(), mapId, options);
+    var map = L.mapbox.map(ReactDOM.findDOMNode(this), mapId, options);
 
     if (this.props.onMapCreated) {
       this.props.onMapCreated(map, L);
